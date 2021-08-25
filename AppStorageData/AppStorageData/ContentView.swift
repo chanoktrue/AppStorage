@@ -20,6 +20,13 @@ struct ContentView: View {
                 Section(header: Text("Display")) {
                     Text("Name: \(name)")
                 }
+                
+                NavigationLink(
+                    destination: DetailView(name: name),
+                    label: {
+                        Text("Detail")
+                    })
+                
             }
             .navigationTitle(Text("AppStorage"))
         }

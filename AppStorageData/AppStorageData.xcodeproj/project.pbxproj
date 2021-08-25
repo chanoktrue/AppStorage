@@ -11,6 +11,7 @@
 		CDE8A6A226D5DA2F00056940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8A6A126D5DA2F00056940 /* ContentView.swift */; };
 		CDE8A6A426D5DA3400056940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE8A6A326D5DA3400056940 /* Assets.xcassets */; };
 		CDE8A6A726D5DA3400056940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE8A6A626D5DA3400056940 /* Preview Assets.xcassets */; };
+		CDE8A6AF26D5DDAB00056940 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8A6AE26D5DDAB00056940 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CDE8A6A326D5DA3400056940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE8A6A626D5DA3400056940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDE8A6A826D5DA3400056940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE8A6AE26D5DDAB00056940 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				CDE8A69F26D5DA2F00056940 /* AppStorageDataApp.swift */,
 				CDE8A6A126D5DA2F00056940 /* ContentView.swift */,
+				CDE8A6AE26D5DDAB00056940 /* DetailView.swift */,
 				CDE8A6A326D5DA3400056940 /* Assets.xcassets */,
 				CDE8A6A826D5DA3400056940 /* Info.plist */,
 				CDE8A6A526D5DA3400056940 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE8A6A226D5DA2F00056940 /* ContentView.swift in Sources */,
+				CDE8A6AF26D5DDAB00056940 /* DetailView.swift in Sources */,
 				CDE8A6A026D5DA2F00056940 /* AppStorageDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
